@@ -1,0 +1,20 @@
+a) Liste e descreva o que são as 4 etapas do processo de compilação.
+1 - Análise léxica: Nesta etapa, o compilador lê o código-fonte e o divide em tokens, que são pedaços individuais de código que representam elementos da linguagem, como palavras-chave, identificadores, operadores e valores literais. A análise léxica também remove espaços em branco e comentários do código.
+
+2 - Análise sintática: Após a análise léxica, o compilador usa as regras da gramática da linguagem para analisar a estrutura do código-fonte e construir uma árvore sintática. Essa árvore mostra como as diferentes partes do código se relacionam e como o código deve ser organizado para ser executado.
+
+3 - Análise semântica: A análise semântica verifica se o código-fonte faz sentido e se é válido em relação às regras da linguagem. Isso inclui garantir que os tipos de dados sejam consistentes, que as variáveis sejam definidas antes de serem usadas e que as expressões sejam válidas.
+
+4 - Geração de código: A etapa final do processo de compilação envolve a geração do código de máquina que o computador pode executar diretamente. Isso é feito através da tradução da árvore sintática em código de máquina e da otimização desse código para torná-lo o mais eficiente possível. O resultado final é um arquivo executável que pode ser carregado e executado pelo sistema operacional do computador.
+
+b) i) A opção "-static" é utilizada para criar executáveis independentes das bibliotecas compartilhadas do sistema, tornando-os auto-suficientes e portáveis. No entanto, isso pode resultar em executáveis maiores, pois todo o código das bibliotecas estáticas é incluído no arquivo executável.
+
+ii) O parâmetro "-g" é uma opção utilizada em compiladores para incluir informações de depuração no arquivo executável gerado. Essas informações são usadas pelos depuradores durante o processo de depuração para ajudar a identificar e corrigir erros no código.
+
+iii) O parâmetro "-pedantic" é uma opção utilizada em compiladores para habilitar o modo de conformidade estrita com o padrão C definido pela norma ISO/IEC 9899:1999. Isso significa que o compilador emitirá avisos ou erros sempre que o código-fonte violar regras ou especificações do padrão C.
+
+iv) O parâmetro "-Wall" é uma opção utilizada em compiladores para ativar o modo de exibição de avisos adicionais durante o processo de compilação. Esses avisos adicionais incluem possíveis problemas no código-fonte que não são considerados erros, mas podem indicar potenciais problemas ou erros futuros.
+
+v) O parâmetro "-Os" é uma opção utilizada em compiladores de linguagem C para otimizar o tamanho do código gerado. A letra "O" significa otimização e a letra "s" significa "tamanho" (size), indicando que essa opção visa reduzir o tamanho do arquivo executável gerado.
+
+vi) O parâmetro "-O3" é uma opção utilizada em compiladores de linguagem C para ativar o nível máximo de otimização disponível. A letra "O" significa otimização e o número "3" indica o nível de otimização, sendo o mais alto disponível em alguns compiladores.
