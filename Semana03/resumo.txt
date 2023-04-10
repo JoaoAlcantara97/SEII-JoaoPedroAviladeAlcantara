@@ -1,0 +1,5 @@
+O capítulo 3 do livro Advanced Linux Programming trata sobre processos. Ele começa explicando o que são processos, como eles são criados e como é possível controlá-los usando o sistema de chamadas de sistema do Linux. Em seguida, o capítulo aborda a questão da comunicação entre processos, apresentando as técnicas disponíveis para compartilhar informações e sincronizar a execução entre processos diferentes.
+
+O capítulo também fala sobre as diferenças entre processos e threads, apresentando as vantagens e desvantagens de cada abordagem e quando é mais apropriado usar uma ou outra. Além disso, o capítulo apresenta algumas das ferramentas disponíveis no Linux para gerenciar processos, como o comando ps e o utilitário top.
+
+Por fim, o capítulo aborda algumas questões avançadas, como o uso de processos zumbis e orfãos e o uso de sinais para controlar o comportamento dos processos. Ao longo do capítulo, são apresentados exemplos práticos e códigos de programa para ilustrar os conceitos discutidos.
